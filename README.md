@@ -1,17 +1,25 @@
 # OctoPrint-TuyaCloud
 
-**TODO:** Describe what your plugin does.
+A plugin to control Tuya Cloud switches.
 
 ## Setup
 
-Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bundledplugins/pluginmanager.html)
-or manually using this URL:
-
-    https://github.com/emfmesquita/OctoPrint-TuyaCloud/archive/master.zip
-
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
+This is not published. Zip the repo content and install manually on Octoprint's plugin manager.
 
 ## Configuration
 
-**TODO:** Describe your plugin's configuration options (if any).
+In the plugin settings setup:
+
+* API Endpoint: the Tuya api endpoint depending on the project region:
+    | Region      | API Endpoint |
+    | ----------- | ----------- |
+    | China Data Center             | https://openapi.tuyacn.com |
+    | Western America Data Center	| https://openapi.tuyaus.com |
+    | Eastern America Data Center	| https://openapi-ueaz.tuyaus.com
+    | Central Europe Data Center	| https://openapi.tuyaeu.com
+    | Western Europe Data Center	| https://openapi-weaz.tuyaeu.com
+    | India Data Center	| https://openapi.tuyain.com
+
+* Access Id: the Tuya cloud project access id.
+* Access Key: the Tuya cloud project access key.
+* Device Id: the device id of the switch/outlet setup in the tuya cloud project.
