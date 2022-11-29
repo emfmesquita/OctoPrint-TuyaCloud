@@ -1,0 +1,4 @@
+include README.md
+recursive-include octoprint_tuyacloud/templates *
+recursive-include octoprint_tuyacloud/translations *
+recursive-include octoprint_tuyacloud/static *
